@@ -1,0 +1,16 @@
+#! /bin/bash
+
+#while true 
+#  do 
+#      xsetroot -name "$(date)"
+#      sleep 1
+#  done &
+
+#Now I'm using dwmblocks for status bar
+dwmblocks &
+# Note here & is important other process won't end because of loop
+nitrogen --restore &
+mate-power-manager &
+#/usr/lib/pentablet/pentablet.sh &
+exec dwm
+
