@@ -27,7 +27,8 @@ If you want to have option to change between your DE such as xfce and DWM in the
 
 Scripts goes into `/usr/bin/` [Scripts](Scripts/README.md)
 
-##### For Status bar I use DwmBlocks
+#### For Status bar I use DwmBlocks
+[DwmBlocks](https://github.com/HimanshuGoswamiii/dwmblocks)
 
 ---
 ### For those who don't have an already existing Desktop Environment
