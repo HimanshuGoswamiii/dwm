@@ -24,7 +24,7 @@ necessary as root):
 ### For those who have a desktop environment
 If you want to have option to change between your DE such as xfce and DWM in the login window. Use this:
 - Put the Desktop file and Scripts in their Places
-[[Deskop File/Readme.md]]
+[[Deskop File/README.md]]
 
 ### For those who don't have a Already existing Desktop Environment
 Add the following line to your .xinitrc to start dwm using startx:
