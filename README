@@ -1,4 +1,4 @@
-dwm - dynamic window manager
+# dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
 
@@ -19,8 +19,14 @@ necessary as root):
     make clean install
 
 
-Running dwm
+## Running dwm
 -----------
+### For those who have a desktop environment
+If you want to have option to change between your DE such as xfce and DWM in the login window. Use this:
+- Put the Desktop file and Scripts in their Places
+[[Deskop File/Readme.md]]
+
+### For those who don't have a Already existing Desktop Environment
 Add the following line to your .xinitrc to start dwm using startx:
 
     exec dwm
