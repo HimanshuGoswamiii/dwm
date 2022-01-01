@@ -63,12 +63,14 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
-/* Change mate-terminal to 'st' when you install it */
+/* Change mate-terminal from 'st' when you install it */
+static const char *roficmd[] = {"rofi",  "-modi", "window,ssh,drun,run", "-show", "drun",  NULL};
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ ControlMask|Mod1Mask,         XK_t,      spawn,          {.v = termcmd } },
+    { MODKEY,                       XK_o,      spawn,          {.v = roficmd} },/* Rofi Keybinding*/
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
