@@ -1,15 +1,12 @@
-dwm - dynamic window manager
-============================
+# dwm - dynamic window manager
 dwm is an extremely fast, small, and dynamic window manager for X.
 
-
-Requirements
-------------
+---
+## Requirements
 In order to build dwm you need the Xlib header files.
 
-
-Installation
-------------
+---
+## Installation
 Edit config.mk to match your local setup (dwm is installed into
 the /usr/local namespace by default).
 
@@ -19,8 +16,22 @@ necessary as root):
     make clean install
 
 
-Running dwm
------------
+---
+## Running dwm
+
+### For those who have a desktop environment
+If you want to have option to change between your DE such as xfce and DWM in the login window. Use this:
+- Put the Desktop file and Scripts in their Places
+
+`.desktop` file goes into `/usr/share/xsessions/`.
+
+Scripts goes into `/usr/bin/` [Scripts](Scripts/README.md)
+
+#### For Status bar I use DwmBlocks
+[DwmBlocks](https://github.com/HimanshuGoswamiii/dwmblocks)
+
+---
+### For those who don't have an already existing Desktop Environment
 Add the following line to your .xinitrc to start dwm using startx:
 
     exec dwm
