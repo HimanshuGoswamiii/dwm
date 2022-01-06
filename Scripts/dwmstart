@@ -10,7 +10,7 @@
 dwmblocks &
 # Note here & is important other process won't end because of loop
 nitrogen --restore &
-mate-power-manager &
+xfce4-power-manager &
 #/usr/lib/pentablet/pentablet.sh &
 exec dwm
 
