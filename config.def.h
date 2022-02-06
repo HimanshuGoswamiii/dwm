@@ -9,7 +9,7 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Recursive Sans Casual Static:size=15","Font Awesome 6 Free:size=15","FiraCode Nerd Font:size=15","Monospace:size=15" };
 static const char dmenufont[]       = "Recursive Sans Casual Static:size=15";
 /* colors from .cache/wal */
-/*
+
 static const char norm_fg[] = "#a5cde5";
 static const char norm_bg[] = "#0d1115";
 static const char norm_border[] = "#738fa0";
@@ -18,8 +18,8 @@ static const char sel_fg[] = "#a5cde5";
 static const char sel_bg[] = "#B55E74";
 static const char sel_border[] = "#a5cde5";
 
-*/
 
+/* the original neon shadows Wallpaper 
 static const char norm_fg[] = "#8bebc5";
 static const char norm_bg[] = "#0b1118";
 static const char norm_border[] = "#61a489";
@@ -27,6 +27,27 @@ static const char norm_border[] = "#61a489";
 static const char sel_fg[] = "#8bebc5";
 static const char sel_bg[] = "#962A30";
 static const char sel_border[] = "#8bebc5";
+*/
+
+/* For Genos Wallpaper 
+static const char norm_fg[] = "#e0d7c3";
+static const char norm_bg[] = "#121212";
+static const char norm_border[] = "#9c9688";
+
+static const char sel_fg[] = "#e0d7c3";
+static const char sel_bg[] = "#95695B";
+static const char sel_border[] = "#e0d7c3";
+*/
+
+/* For Fubuki OPM Wallpaper
+static const char norm_fg[] = "#e0e5e0";
+static const char norm_bg[] = "#101210";
+static const char norm_border[] = "#9ca09c";
+
+static const char sel_fg[] = "#FFFFFF";
+static const char sel_bg[] = "#55FF55";
+static const char sel_border[] = "#e0e5e0";
+*/
 
 static const char *colors[][3]      = {
     /*               fg           bg         border                         */
@@ -35,7 +56,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "ﴬ", "", "", "5", "6" };
+static const char *tags[] = { "", "ﴬ", "", "4", "5", "6" };
 /* Note here these are glyphs from font-awesome. To use them font-awesome need to be installed */
 
 static const Rule rules[] = {
